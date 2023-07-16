@@ -26,6 +26,10 @@ section {
     color: #f3f4f6;
 }
 
+a .title-section:hover {
+    color: #9ca3af;
+}
+
 .list {
     height: auto;
     list-style: none;
@@ -72,7 +76,7 @@ section {
 
 .artist {
     margin: 4px;
-    color: #d1d5db;
+    color: #f3f4f6;
     font-size: 16px;
 }
 
@@ -82,7 +86,7 @@ button {
     height: 40px;
     border-radius: 50%;
     outline: none;
-    color: #f9fafb;
+    color: #f3f4f6;
     border: none;
     cursor: pointer;
 }
@@ -149,7 +153,6 @@ button:hover {
     height: 100%;
     background-color: #f3f4f6;
     border-radius: 4px;
-    width: 0;
     position: absolute;
     left: 0;
     top: 0;
@@ -206,7 +209,7 @@ button:hover {
 #playlist-song .song-title{
     margin: 18px 18px;
     font-size: 18px;
-    color: #f9fafb;
+    color: #f3f4f6;
 }
 
 #playlist-song .song-artist, .song-time {
