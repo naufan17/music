@@ -21,6 +21,33 @@ section {
     padding: 20px;
 }
 
+.search-bar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="search"] {
+    border: none;
+    width: 50%;
+    height: 44px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #1f2937;
+    color: #f3f4f6;
+}
+  
+input[type="search"]:focus {
+    background-color: #374151;
+    outline: none;
+    border: none; 
+    transition: 0.3s;
+}
+
+input[type = 'search']:focus::placeholder {
+    color: transparent;
+}
+
 .title-section {
     margin: 20px 0;
     color: #f3f4f6;
@@ -56,6 +83,7 @@ a .title-section:hover {
 
 .card:hover {
     background-color: #374151;
+    transition: 0.3s;
 }
 
 .card img {
@@ -94,6 +122,7 @@ button {
 
 button:hover {
     background-color: #4b5563;
+    transition: 0.3s;
 }
 
 #player .player-song {
@@ -206,6 +235,7 @@ button:hover {
 
 #playlist-song .player-song:hover {
     background-color: #374151;
+    transition: 0.3s;
 }
 
 #playlist-song .title{
