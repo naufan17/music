@@ -26,6 +26,7 @@ section {
     margin-top: 20px;
 }
 
+
 input[type="search"] {
     border: none;
     width: 50%;
@@ -230,6 +231,7 @@ button:hover {
     background-color: #1f2937;
     padding: 10px 10px;
     border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 #playlist-song .player-song:hover {

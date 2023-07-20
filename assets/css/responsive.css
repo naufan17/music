@@ -98,6 +98,7 @@
       
     #playlist-song .player-song {
         padding: 8px 8px;
+        margin-bottom: 8px;
     }
     
     #playlist-song .title{
@@ -215,6 +216,7 @@
       
     #playlist-song .player-song {
         padding: 6px 6px;
+        margin-bottom: 6px;
     }
     
     #playlist-song .title{
