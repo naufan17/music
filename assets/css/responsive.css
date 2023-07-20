@@ -6,8 +6,8 @@
     input[type="search"] {
         width: 70%;
         height: 44px;
-        padding: 16px;
-        font-size: 12px;
+        padding: 14px;
+        font-size: 14px;
     }
 
     .title-section {
@@ -33,7 +33,6 @@
     button {
         width: 32px;
         height: 32px;
-        border-radius: 50%;
     }
 
     .song-picture img {
@@ -45,7 +44,7 @@
     }
     
     .artist {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     #player .player-song {
@@ -68,6 +67,7 @@
 
     .play-button , .previous-button, .next-button, .add-song-button, .delete-song-button{
         margin: 0 8px;
+        font-size: 14px;
     }
     
     .progress-bar {
@@ -92,18 +92,12 @@
         font-size: 24px;
     }
         
-    .play-button , .previous-button, .next-button, .add-song-button, .delete-song-button{
-        margin: 0 8px;
-        font-size: 14px;
-    }
-
     .audio-player {
         width: 85%;
     }
       
     #playlist-song .player-song {
         padding: 8px 8px;
-        margin-bottom: 8px;
     }
     
     #playlist-song .title{
@@ -130,7 +124,7 @@
         width: 90%;
         height: 40px;
         padding: 12px;
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .title-section {
@@ -149,37 +143,31 @@
     }
 
     .title {
-        margin: 4px;
         font-size: 14px;
     }
 
     button {
         width: 28px;
         height: 28px;
-        border-radius: 50%;
-    }
-
-    .title {
-        color: #f3f4f6;
-        margin: 4px;
-        font-size: 12px;
-    }
-    
-    .artist {
-        margin: 4px;
-        color: #f3f4f6;
-        font-size: 12px;
     }
 
     .song-picture img {
         width: 70%;
     }
 
+    .title {
+        font-size: 12px;
+    }
+    
+    .artist {
+        font-size: 12px;
+    }
+
     #player .player-song {
         padding: 12px;
     }
 
-    #player .song-details {
+    #player .details {
         margin-bottom: 12px;
     }
 
@@ -195,13 +183,9 @@
 
     .play-button , .previous-button, .next-button, .add-song-button, .delete-song-button{
         margin: 0 6px;
-        font-size: 10px;
+        font-size: 12px;
     }
 
-    .audio-player {
-        width: 90%;
-    }
-    
     .progress-bar {
         margin: 8px;
         height: 8px;
@@ -220,19 +204,17 @@
         width: 70%;
     }
 
-        
     #playlist-header .playlist-title {
         margin: 6px;
         font-size: 20px;
     }
         
-    .play-button , .previous-button, .next-button, .add-song-button, .delete-song-button{
-        margin: 0 6px;
+    .audio-player {
+        width: 90%;
     }
       
     #playlist-song .player-song {
         padding: 6px 6px;
-        margin-bottom: 8px;
     }
     
     #playlist-song .title{
